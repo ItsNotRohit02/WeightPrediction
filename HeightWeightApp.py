@@ -21,4 +21,4 @@ h=st.slider('Select Height (in m)', 1.30,2.00)
 
 p=model.predict([[g,h,a]])
 
-st.success("The weight of a %d year old %s of %f m is most likely going to be %.2f kg "%(a,gender,h,p[0]))
+st.success("The weight of a %d year old %s of %.2f m is most likely going to be %.2f kg "%(a,gender,h,p[0]))
