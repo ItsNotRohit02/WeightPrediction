@@ -16,9 +16,9 @@ else:
 
 a=st.slider('Select Age', 20,50)
 
-h=st.slider('Select Height', 1.30,2.30)
+h=st.slider('Select Height (in m)', 1.30,2.00)
 
 
 p=model.predict([[g,h,a]])
 
-st.success("The weight of the person is most likely going to be %.2f kg "%p[0])
+st.success("The weight of a %d year old %s of %f m is most likely going to be %.2f kg "%(a,gender,h,p[0]))
