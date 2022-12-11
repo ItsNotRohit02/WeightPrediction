@@ -14,14 +14,14 @@ and Age. The program then gives a predicted weight as an output.
 The Program learns from over 10,000 data entries.
 
 ## Click Link Below 
-[Click Here to see the Program in action](https://its-notrohit-weight-prediction-heightweightapp-1bcqo2.streamlit.app/)
+[Click Here to see the Program in action](https://itsnotrohit02-weightprediction-heightweightapp-paqq34.streamlit.app/)
 
 ## How to Use the Program
 * Download the Height Data.csv file.
 * Download the required libraries as mentioned in the requirements.txt file.
 * Run Height Weight.py . This creates the HeightWeightMLModel.joblib (ML Model)
 * Run the HeightWeightApp.py using "streamlit run HeightWeightApp.py" command in the command prompt while in the program directory.
-* This should open a webpage that looks like [this](https://its-notrohit-weight-prediction-heightweightapp-1bcqo2.streamlit.app/).
+* This should open a webpage that looks like [this](https://itsnotrohit02-weightprediction-heightweightapp-paqq34.streamlit.app/).
 
 ## Extra
 * The Accuracy Score of the ML Model is 80%.
