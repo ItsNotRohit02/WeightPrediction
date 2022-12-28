@@ -20,8 +20,8 @@ if gender == 'Male':
     g=0
 else:
     g=1
-a=st.slider('Select Age', 20,50)
-h=st.slider('Select Height (in m)', 1.30,2.00)
+a=st.slider('Select Age', min_value= 20, max_value=50 ,value=35)
+h=st.slider('Select Height (in m)', min_value=1.30, max_value=2.00, value=1.65)
 p=model.predict([[g,h,a]])
 w=p[0]
 w1=round(w,2)
